@@ -21,7 +21,7 @@ namespace HttBS
 
                     string url = Console.ReadLine();
 
-                    var regex = new Regex(@"^http(s)?://([\\w-]+.)+[\\w-]+(/[\\w- ./?%&=])?$\r\n");
+                    var regex = new Regex("^https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)$");
 
                     
 
